@@ -1,2 +1,11 @@
 # React Native 程式碼小抄
-React Native 的程式碼小抄 - React Native code snippet
+記錄用過的 React Native 程式碼片段，送禮自用兩相宜
+
+## 開發環境
+
+### Linting
+
+* [ESLint](docs/eslint.md)
+
+
+

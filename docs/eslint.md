@@ -11,14 +11,14 @@ npm install -g eslint
 
 ### 專案
 
-#### 方法一
+#### 方法一 - 套用 rallycoding
 
-套用通用設定
+安裝設定
 ```
 npm install --save-dev eslint-config-rallycoding
 ```
 
-.eslint.rc
+調整 .eslint.rc
 ```
 {
   "extends": "rallycoding",

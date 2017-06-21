@@ -16,7 +16,7 @@
 ```
 ### 場景轉換
 
-__Actions.[key]__
+到指定場景：`Actions.[key]`
 ```
 Actions.member();
 ```
@@ -24,6 +24,15 @@ Actions.member();
 ```
 Actions.memberDetail({ type: 'reset' });
 ```
+回到前一個場景：`Actions.pop()`
+
+傳資料給場景：
+```
+Actions.memberDetail({ message: 'Hello Detail' });
+Actions.memberDetail({ type: 'reset', message: 'Hello Detail' });
+```
+* MemberDetail 可取得 message，如：`<Text>{this.props.message}</Text>`  
+* `type`：為　react-native-router-flux　保留字
 
 ## Tab
 
